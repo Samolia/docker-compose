@@ -1,5 +1,5 @@
-Команды для запуска контейнера c backend-сервером:
+Команды для запуска проекта:
 
-docker build -t <name> .
+docker-compose build
 
-docker run -p 8000:8000 -d <name>
+docker-compose up
